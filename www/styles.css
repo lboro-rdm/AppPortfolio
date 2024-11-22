@@ -1,0 +1,29 @@
+body {
+  background-color: #f3e8ff; /* Light purple background */
+    color: #4b0082; /* Indigo text */
+}
+
+.navbar {
+  background-color: #6a0dad; /* Purple navbar background */
+    border-color: #4b0082;
+}
+
+.navbar-default .navbar-brand {
+  color: #ffffff; /* Navbar title text color */
+}
+
+.navbar-default .navbar-nav > li > a:hover {
+  color: #ffffff; /* Light text on hover */
+  background-color: #6a0dad; /* Optional: purple background */
+}
+
+.card {
+  border: 1px solid #6a0dad;
+  background-color: #e6ccff; /* Light lavender card background */
+    color: #4b0082;
+}
+
+.card:hover {
+  background-color: #d9b3ff; /* Slightly darker purple on hover */
+  cursor: pointer;
+}
