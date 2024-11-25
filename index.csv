@@ -1,11 +1,11 @@
-title,description,gitlink,doi,liveapp,datasource
-FutureFlightScenarios,,https://github.com/lboro-rdm/FutureFlightScenarios.git,https://doi.org/10.17028/rd.lboro.27852363,https://research-data-lboro.shinyapps.io/FutureFlightScenarios/,N/A
-ArtOfScience,,https://github.com/lboro-rdm/ArtOfScience,https://doi.org/10.17028/rd.lboro.26901427,https://research-data-lboro.shinyapps.io/ArtOfScience/,Figshare
-LUParaDisSportResearch,,https://github.com/lboro-rdm/LUParaDisSportResearch,,https://research-data-lboro.shinyapps.io/LUParaDisSportResearch/,Figshare
-mapmyrepo,,https://github.com/lboro-rdm/mapmyrepo,,https://research-data-lboro.shinyapps.io/mapmyrepo/,Figshare
-TalkingOpen,,https://github.com/lboro-rdm/TalkingOpen.git,,https://research-data-lboro.shinyapps.io/RDMBlogDigestMaker/,Blog
-TalisAspireLinkChecker,,https://github.com/lboro-rdm/TalisAspireLinkChecker,https://doi.org/10.17028/rd.lboro.27889197,N/A,TalisAspire
-WordCloudMyRepo,,https://github.com/lboro-rdm/WordCloudMyRepo,https://doi.org/10.17028/rd.lboro.27380634,https://research-data-lboro.shinyapps.io/WordCloudMyRepo/,Figshare
-edinewitems,,https://github.com/lboro-rdm/edinewitems,,https://research-data-lboro.shinyapps.io/edinewitems/,Figshare
-RisingItems,,https://github.com/lboro-rdm/RisingItems,https://doi.org/10.17028/rd.lboro.25696158,https://research-data-lboro.shinyapps.io/LboroRepoRisingItems/,IRUS
-NaN,,https://github.com/lboro-rdm/NaN,,https://research-data-lboro.shinyapps.io/NamedAfterNelson/,Figshare
+title,description,gitlink,doi,liveapp,datasource,funding
+FutureFlightScenarios,A shiny app that prompts the user to work through various scenarios regarding the future of flight.,https://github.com/lboro-rdm/FutureFlightScenarios.git,https://doi.org/10.17028/rd.lboro.27852363,https://research-data-lboro.shinyapps.io/FutureFlightScenarios/,N/A,Arts Council England
+ArtOfScience,Virtual exhibition of work from Joanne Berry-Frith.,https://github.com/lboro-rdm/ArtOfScience,https://doi.org/10.17028/rd.lboro.26901427,https://research-data-lboro.shinyapps.io/ArtOfScience/,Figshare,Arts Council England
+LUParaDisSportResearch,A shiny app that returns a custom search.,https://github.com/lboro-rdm/LUParaDisSportResearch,,https://research-data-lboro.shinyapps.io/LUParaDisSportResearch/,Figshare,N/A
+mapmyrepo,A shiny app that maps downloads or views geographically.,https://github.com/lboro-rdm/mapmyrepo,,https://research-data-lboro.shinyapps.io/mapmyrepo/,Figshare,N/A
+TalkingOpen,A shiny app that creates a blog digest.,https://github.com/lboro-rdm/TalkingOpen.git,,https://research-data-lboro.shinyapps.io/RDMBlogDigestMaker/,Blog,N/A
+TalisAspireLinkChecker,A script that runs through a spreadsheet export of all the links from the Talis Aspire reading list system and checks for broken links.,https://github.com/lboro-rdm/TalisAspireLinkChecker,https://doi.org/10.17028/rd.lboro.27889197,,TalisAspire,N/A
+WordCloudMyRepo,A shiny app that creates word clouds from a list of titles chosen in the Loughborough University Research Repository.,https://github.com/lboro-rdm/WordCloudMyRepo,https://doi.org/10.17028/rd.lboro.27380634,https://research-data-lboro.shinyapps.io/WordCloudMyRepo/,Figshare,Arts Council England
+edinewitems,A shiny app that returns a custom search.,https://github.com/lboro-rdm/edinewitems,,https://research-data-lboro.shinyapps.io/edinewitems/,Figshare,N/A
+RisingItems,A shiny app pulls the number of unique downloads from IRUS over a three-month period and works out which have an increasing trend.,https://github.com/lboro-rdm/RisingItems,https://doi.org/10.17028/rd.lboro.25696158,https://research-data-lboro.shinyapps.io/LboroRepoRisingItems/,IRUS,N/A
+NaN,A shiny app that maps downloads or views geographically.,https://github.com/lboro-rdm/NaN,,https://research-data-lboro.shinyapps.io/NamedAfterNelson/,Figshare,N/A

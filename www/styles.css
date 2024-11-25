@@ -1,11 +1,11 @@
 body {
   background-color: #f3e8ff; /* Light purple background */
-    color: #4b0082; /* Indigo text */
+  color: #4b0082; /* Indigo text */
 }
 
 .navbar {
   background-color: #6a0dad; /* Purple navbar background */
-    border-color: #4b0082;
+  border-color: #4b0082;
 }
 
 .navbar-default .navbar-brand {
@@ -20,10 +20,42 @@ body {
 .card {
   border: 1px solid #6a0dad;
   background-color: #e6ccff; /* Light lavender card background */
-    color: #4b0082;
+  color: #4b0082;
 }
 
 .card:hover {
   background-color: #d9b3ff; /* Slightly darker purple on hover */
   cursor: pointer;
+}
+
+/* Table Styling */
+table {
+  width: 100%;
+  border-collapse: collapse; /* Removes unnecessary borders */
+  margin-bottom: 20px; /* Adds spacing below the table */
+}
+
+table th, table td {
+  padding: 10px; /* Adds space between columns */
+  text-align: left;
+  border-bottom: 1px solid #6a0dad; /* Adds a light purple border between rows */
+}
+
+table th {
+  background-color: #e6ccff; /* Light lavender header background */
+  color: #4b0082; /* Indigo header text */
+}
+
+/* Zebra Stripes for Rows */
+table tr:nth-child(odd) {
+  background-color: #f9f2ff; /* Very light lavender for odd rows */
+}
+
+table tr:nth-child(even) {
+  background-color: #ffffff; /* White for even rows */
+}
+
+/* Highlight Hovered Row */
+table tr:hover {
+  background-color: #d9b3ff; /* Slightly darker purple on hover */
 }
