@@ -1,3 +1,5 @@
+library(DT)
+
 shinyUI(fluidPage(
   includeCSS("www/styles.css"),  # Link your custom CSS
   titlePanel("Lboro University Library Shiny Apps"),
@@ -14,15 +16,19 @@ shinyUI(fluidPage(
     )
   ),
   
+  p(),
+  p(),
+  
   sidebarLayout(
     sidebarPanel(
-      selectInput("datasource", "Select Datasource:", choices = NULL, selected = "All"),
-      selectInput("funding", "Select Funding:", choices = NULL, selected = "All"),
+      selectInput("datasource", "Data source:", choices = NULL, selected = "All"),
+      selectInput("funding", "Funding:", choices = NULL, selected = "All"),
+      selectInput("status", "Status:", choices = NULL, selected = "All"),
       p(),
       p("The code for this app can be found at ", a("GitHub", href = "https://github.com/lboro-rdm/AppPortfolio.git"))
     ),
     mainPanel(
-      tableOutput("filteredTable")
+      DTOutput("filteredTable")
     )
   )
 ))
