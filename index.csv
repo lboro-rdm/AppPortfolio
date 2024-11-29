@@ -9,3 +9,4 @@ Word Cloud My Repo,A shiny app that creates word clouds from a list of titles ch
 EDI New Items,"A shiny app that returns a custom search, to maintain the EDI collections.",Beta,https://github.com/lboro-rdm/edinewitems,,https://research-data-lboro.shinyapps.io/edinewitems/,Figshare,N/A
 Rising Items,A shiny app pulls the number of unique downloads from IRUS over a three-month period and works out which have an increasing trend.,Production,https://github.com/lboro-rdm/RisingItems,https://doi.org/10.17028/rd.lboro.25696158,https://research-data-lboro.shinyapps.io/LboroRepoRisingItems/,IRUS,N/A
 Mapping Named After Nelson,A shiny app that maps downloads or views from the Named After Nelson project geographically.,Production,https://github.com/lboro-rdm/NaN,,https://research-data-lboro.shinyapps.io/NamedAfterNelson/,Figshare,N/A
+App Index,This app,Production,https://github.com/lboro-rdm/AppPortfolio.git,,Lboro University Library Shiny Apps,N/A,N/A
