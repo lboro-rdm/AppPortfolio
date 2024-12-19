@@ -10,3 +10,5 @@ EDI New Items,"A shiny app that returns a custom search, to maintain the EDI col
 Rising Items,A shiny app pulls the number of unique downloads from IRUS over a three-month period and works out which have an increasing trend.,Production,https://github.com/lboro-rdm/RisingItems,https://doi.org/10.17028/rd.lboro.25696158,https://research-data-lboro.shinyapps.io/LboroRepoRisingItems/,IRUS,N/A
 Mapping Named After Nelson,A shiny app that maps downloads or views from the Named After Nelson project geographically.,Production,https://github.com/lboro-rdm/NaN,,https://research-data-lboro.shinyapps.io/NamedAfterNelson/,Figshare,N/A
 App Index,This app,Production,https://github.com/lboro-rdm/AppPortfolio.git,,Lboro University Library Shiny Apps,N/A,N/A
+WEDC Books,A list of books produced by researchers at WEDC,Beta,https://github.com/lboro-rdm/WEDCBooks.git,,https://research-data-lboro.shinyapps.io/WEDCBooks/,Figshare,WEDC
+WEDC Illustrations & Graphics,A list of illustrations and graphics produced by researchers at WEDC,Beta,https://github.com/lboro-rdm/WEDCIllustrationsGraphics.git,,https://research-data-lboro.shinyapps.io/WEDCIllustrationsGraphics/,Figshare,WEDC
