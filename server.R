@@ -76,6 +76,6 @@ shinyServer(function(input, output, session) {
     colnames(filtered) <- c("Title", "Description", "Status", "GitHub", "DOI", "Live App")
     
     # Return interactive table
-    datatable(filtered, escape = FALSE, rownames = FALSE, options = list(pageLength = 10))
+    datatable(filtered, escape = FALSE, rownames = FALSE, options = list(paging = FALSE))
   })
 })
