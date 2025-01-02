@@ -1,6 +1,13 @@
+@font-face {
+  font-family: 'OpenDyslexic';
+  src: url('fonts/OpenDyslexic-Regular.ttf') format('truetype'); /* Adjust the path if needed */
+}
+
 body {
   background-color: #f3e8ff; /* Light purple background */
   color: #4b0082; /* Indigo text */
+  font-family: 'OpenDyslexic', sans-serif; /* Apply OpenDyslexic font */
+  font-size: 16px; /* Base font size increased (e.g., from 14px to 16px) */
 }
 
 .navbar {
@@ -33,10 +40,11 @@ table {
   width: 100%;
   border-collapse: collapse; /* Removes unnecessary borders */
   margin-bottom: 20px; /* Adds spacing below the table */
+  font-size: 16px; /* Table font size adjusted */
 }
 
 table th, table td {
-  padding: 10px; /* Adds space between columns */
+  padding: 12px; /* Adds space between columns (increased from 10px) */
   text-align: left;
   border-bottom: 1px solid #6a0dad; /* Adds a light purple border between rows */
 }
@@ -58,4 +66,15 @@ table tr:nth-child(even) {
 /* Highlight Hovered Row */
 table tr:hover {
   background-color: #d9b3ff; /* Slightly darker purple on hover */
+}
+
+/* Link Styling */
+a {
+  color: #255484; /* Link color set to dark blue */
+  text-decoration: none; /* Removes underline */
+}
+
+a:hover {
+  color: #6a0dad; /* Purple color on hover */
+  text-decoration: underline; /* Adds underline on hover */
 }
